@@ -1,0 +1,43 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card1 {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.card2 {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.emoji {
+  height: 60px;
+  width: 60px;
+}
+.emojis-container {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
